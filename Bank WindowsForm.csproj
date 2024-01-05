@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9895B25F-D2B9-4F1A-A132-2C747A87887A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bank_WindowsForm</RootNamespace>
+    <AssemblyName>Bank WindowsForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\FrmAddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\FrmAddClient.Designer.cs">
+      <DependentUpon>FrmAddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\FrmClientsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\FrmClientsList.Designer.cs">
+      <DependentUpon>FrmClientsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\FrmDeleteClientcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\FrmDeleteClientcs.Designer.cs">
+      <DependentUpon>FrmDeleteClientcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\FrmFindClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\FrmFindClient.Designer.cs">
+      <DependentUpon>FrmFindClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmCurrenciesListcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmCurrenciesListcs.Designer.cs">
+      <DependentUpon>FrmCurrenciesListcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmFindCurrency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmFindCurrency.Designer.cs">
+      <DependentUpon>FrmFindCurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmUpdateRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Currency\FrmUpdateRate.Designer.cs">
+      <DependentUpon>FrmUpdateRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmDeposite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmDeposite.Designer.cs">
+      <DependentUpon>FrmDeposite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmTransfer.Designer.cs">
+      <DependentUpon>FrmTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmWithraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transactions\FrmWithraw.Designer.cs">
+      <DependentUpon>FrmWithraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\FrmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\FrmAddUser.Designer.cs">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\FrmDeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\FrmDeleteUser.Designer.cs">
+      <DependentUpon>FrmDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\FrmFindUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\FrmFindUser.Designer.cs">
+      <DependentUpon>FrmFindUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\FrmUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\FrmUpdateUser.Designer.cs">
+      <DependentUpon>FrmUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\FrmUsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User\FrmUsersList.Designer.cs">
+      <DependentUpon>FrmUsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\FrmUpdateClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\FrmUpdateClient.Designer.cs">
+      <DependentUpon>FrmUpdateClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\FrmAddClient.resx">
+      <DependentUpon>FrmAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\FrmClientsList.resx">
+      <DependentUpon>FrmClientsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\FrmDeleteClientcs.resx">
+      <DependentUpon>FrmDeleteClientcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\FrmFindClient.resx">
+      <DependentUpon>FrmFindClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Currency\FrmCurrenciesListcs.resx">
+      <DependentUpon>FrmCurrenciesListcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Currency\FrmFindCurrency.resx">
+      <DependentUpon>FrmFindCurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Currency\FrmUpdateRate.resx">
+      <DependentUpon>FrmUpdateRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\FrmDeposite.resx">
+      <DependentUpon>FrmDeposite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\FrmTransfer.resx">
+      <DependentUpon>FrmTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transactions\FrmWithraw.resx">
+      <DependentUpon>FrmWithraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\FrmAddUser.resx">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\FrmDeleteUser.resx">
+      <DependentUpon>FrmDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\FrmFindUser.resx">
+      <DependentUpon>FrmFindUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\FrmUpdateUser.resx">
+      <DependentUpon>FrmUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\FrmUsersList.resx">
+      <DependentUpon>FrmUsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\FrmUpdateClient.resx">
+      <DependentUpon>FrmUpdateClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BankBuisnessLayer\BankBuisnessLayer.csproj">
+      <Project>{14619693-cc75-4142-b86a-e0408ef4f1f3}</Project>
+      <Name>BankBuisnessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

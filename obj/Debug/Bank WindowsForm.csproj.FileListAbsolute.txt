@@ -1,0 +1,32 @@
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\Bank WindowsForm.exe.config
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\Bank WindowsForm.exe
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\Bank WindowsForm.pdb
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\BankBuisnessLayer.dll
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\BankDataLayer.dll
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\BankBuisnessLayer.pdb
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\bin\Debug\BankDataLayer.pdb
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.exe
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank WindowsForm.pdb
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmMainMenu.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmClientsList.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmFindClient.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmAddClient.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmUpdateClient.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmDeleteClientcs.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.FrmLogin.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Transactions.FrmDeposite.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Transactions.FrmWithraw.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.User.FrmUsersList.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.User.FrmFindUser.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.User.FrmAddUser.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.User.FrmUpdateUser.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.User.FrmDeleteUser.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Transactions.FrmTransfer.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Currency.FrmCurrenciesListcs.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Currency.FrmFindCurrency.resources
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\obj\Debug\Bank_WindowsForm.Forms.Currency.FrmUpdateRate.resources

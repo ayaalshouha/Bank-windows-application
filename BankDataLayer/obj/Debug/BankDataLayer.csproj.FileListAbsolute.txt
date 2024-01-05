@@ -1,0 +1,6 @@
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\bin\Debug\BankDataLayer.dll
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\bin\Debug\BankDataLayer.pdb
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\obj\Debug\BankDataLayer.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\obj\Debug\BankDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\obj\Debug\BankDataLayer.dll
+C:\Users\lenovo\Desktop\Coding\Bank WindowsForm\BankDataLayer\obj\Debug\BankDataLayer.pdb
