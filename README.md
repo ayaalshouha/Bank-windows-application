@@ -1,5 +1,6 @@
 # Bank-windows-application
 .NET Desktop application structured with 3-teir architecture and integrated with Microsoft  SQL Server, written by C# programming language and follows the object-oriented programming pronciples (OOP).
+This Bank Application is built to manage clients and users, as well as facilitate banking transactions including deposit, withdrawal, and transfer functionalities.
 
 ## Key Features
 - **Client Management**: Allows CRUD (Create, Read, Update, Delete) operations for managing client information.
