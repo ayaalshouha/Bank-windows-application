@@ -36,24 +36,31 @@ Here are some screenshots from the application:
 **login** 
 
 **Main Menu** 
+
 <img width="683" alt="home" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/f25ba873-42a3-441a-ae95-b8b7a02de8d3">
 
 **Manage Client**
+
 <img width="712" alt="manageClient" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/b1d004ac-9e8b-4052-ac16-9eada8ef4191">
 
 **Add Client**
+
 <img width="711" alt="AddClient" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/6dbeff20-f17b-4401-98f4-735fe560aac4">
 
 **Manage Users**
+
 <img width="813" alt="AddUser" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/6fbe452b-79d7-41ce-93e7-da0dcff4284d">
 
 **Transactions**
+
 <img width="701" alt="Transactions" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/8321e367-3ee2-4e6d-b3d4-c57b0d8eb45d">
 
 **Transfer Screen** 
+
 <img width="819" alt="TransferScreen" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/721239ef-e922-4357-a6f7-848304de8f94">
 
 **Add User**
+
 <img width="813" alt="AddUser" src="https://github.com/ayaalshouha/Bank-windows-application/assets/129595827/d22c7052-bc8d-4b0d-bc6b-6d0b5004e309">
 
 
